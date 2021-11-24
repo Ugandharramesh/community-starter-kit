@@ -1,0 +1,76 @@
+---///Calculate the greater number amoung the three numbers
+Integer num1;
+Integer num2;
+Integer num2;
+
+if(num1>num2)
+{
+if(num1>num3)
+{
+System.debug(num is geater);
+}
+}
+else if(num2>num3)
+{
+System.debug(num2 is greter);
+}
+else
+{
+Sytem.debug(num3 is greater);
+}
+
+
+
+---///Calculate the area of the rectangle, triangle, trapizium
+Decimal L;
+Decimal B;
+Decimal H;
+String shape;
+
+if(shape == 'rectangle')
+{
+Integer area=L*B;
+System.debug('area of rectangle '+area);
+}
+else if(shape == 'Traingle')
+{
+Integer area = (B*H)/2;
+System.debug('area of Triangle '+area);
+}
+else
+{
+Integer area = ((L+B)/2)*H;
+System.debug('area of Trapizium '+area);
+}
+
+
+
+---////Write a program to calculate basic maths
+Integer num1;
+Integer num2;
+String math;  // Add, Sub, Mul, Div.
+Integer num3;
+if(Math == 'Add')
+{
+num3=num1+num2;
+System.debug('The addition is:'+num3);
+}
+esle if(Math == 'Sub')
+{
+num3=num1-num2;
+System.debug('The Substraction is:'+num3);
+}
+else if(Math == 'Mul')
+{
+num3=num1*num2;
+System.debug('The Multiplication is:'+num3);
+}
+else if(Math == 'Div')
+{
+num3=num1/num2;
+System.debug('The division is:'+num3);
+}
+else
+{
+System.debug('Contact the nasa');
+}
